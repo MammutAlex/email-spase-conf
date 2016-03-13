@@ -1,445 +1,1561 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <!--[if !mso]><!--><meta http-equiv="X-UA-Compatible" content="IE=edge" /><!--<![endif]-->
-    <meta name="viewport" content="width=device-width" />
-    <title> </title>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!--[if !mso]><!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/><!--<![endif]-->
+    <meta name="viewport" content="width=device-width"/>
+    <title></title>
     <style type="text/css">
-.wrapper a:hover {
-  text-decoration: none !important;
-}
-.btn a:hover,
-.footer__links a:hover {
-  opacity: 0.8;
-}
-.wrapper .footer__share-button:hover {
-  color: #ffffff !important;
-  opacity: 0.8;
-}
-a[x-apple-data-detectors] {
-  color: inherit !important;
-  text-decoration: none !important;
-  font-size: inherit !important;
-  font-family: inherit !important;
-  font-weight: inherit !important;
-  line-height: inherit !important;
-}
-.column {
-  font-size: 14px;
-  line-height: 21px;
-  padding: 0;
-  text-align: left;
-  vertical-align: top;
-}
-.mso .font-avenir,
-.mso .font-cabin,
-.mso .font-open-sans,
-.mso .font-ubuntu {
-  font-family: sans-serif !important;
-}
-.mso .font-bitter,
-.mso .font-merriweather,
-.mso .font-pt-serif {
-  font-family: Georgia, serif !important;
-}
-.mso .font-lato,
-.mso .font-roboto {
-  font-family: Tahoma, sans-serif !important;
-}
-.mso .font-pt-sans {
-  font-family: "Trebuchet MS", sans-serif !important;
-}
-.mso .footer p {
-  margin: 0;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .fblike {
-    background-image: url(https://i7.createsend1.com/static/eb/master/13-the-blueprint-3/images/fblike@2x.png) !important;
-  }
-  .tweet {
-    background-image: url(https://i8.createsend1.com/static/eb/master/13-the-blueprint-3/images/tweet@2x.png) !important;
-  }
-  .linkedinshare {
-    background-image: url(https://i1.createsend1.com/static/eb/master/13-the-blueprint-3/images/lishare@2x.png) !important;
-  }
-  .forwardtoafriend {
-    background-image: url(https://i9.createsend1.com/static/eb/master/13-the-blueprint-3/images/forward@2x.png) !important;
-  }
-}
-@media only screen and (max-width: 620px) {
-  .wrapper h2,
-  .wrapper .size-18,
-  .wrapper .size-20 {
-    font-size: 17px !important;
-    line-height: 26px !important;
-  }
-  .wrapper .size-22 {
-    font-size: 18px !important;
-    line-height: 26px !important;
-  }
-  .wrapper .size-24 {
-    font-size: 20px !important;
-    line-height: 28px !important;
-  }
-  .wrapper h1,
-  .wrapper .size-26 {
-    font-size: 22px !important;
-    line-height: 31px !important;
-  }
-  .wrapper .size-28 {
-    font-size: 24px !important;
-    line-height: 32px !important;
-  }
-  .wrapper .size-30 {
-    font-size: 26px !important;
-    line-height: 34px !important;
-  }
-  .wrapper .size-32 {
-    font-size: 28px !important;
-    line-height: 36px !important;
-  }
-  .wrapper .size-34,
-  .wrapper .size-36 {
-    font-size: 30px !important;
-    line-height: 38px !important;
-  }
-  .wrapper .size-40 {
-    font-size: 32px !important;
-    line-height: 40px !important;
-  }
-  .wrapper .size-44 {
-    font-size: 34px !important;
-    line-height: 43px !important;
-  }
-  .wrapper .size-48 {
-    font-size: 36px !important;
-    line-height: 43px !important;
-  }
-  .wrapper .size-56 {
-    font-size: 40px !important;
-    line-height: 47px !important;
-  }
-  .wrapper .size-64 {
-    font-size: 44px !important;
-    line-height: 50px !important;
-  }
-  .divider {
-    Margin-left: auto !important;
-    Margin-right: auto !important;
-  }
-  .btn a {
-    display: block !important;
-    font-size: 14px !important;
-    line-height: 24px !important;
-    padding: 12px 10px !important;
-    width: auto !important;
-  }
-  .btn--shadow a {
-    padding: 12px 10px 13px 10px !important;
-  }
-  .image img {
-    height: auto;
-    width: 100%;
-  }
-  .layout,
-  .column,
-  .preheader__webversion,
-  .header td,
-  .footer,
-  .footer__left,
-  .footer__right,
-  .footer__inner {
-    width: 320px !important;
-  }
-  .preheader__snippet,
-  .layout__edges {
-    display: none !important;
-  }
-  .preheader__webversion {
-    text-align: center !important;
-  }
-  .header__logo {
-    Margin-left: 20px;
-    Margin-right: 20px;
-  }
-  .layout--full-width {
-    width: 100% !important;
-  }
-  .layout--full-width tbody,
-  .layout--full-width tr {
-    display: table;
-    Margin-left: auto;
-    Margin-right: auto;
-    width: 320px;
-  }
-  .column,
-  .layout__gutter,
-  .footer__left,
-  .footer__right {
-    display: block;
-    Float: left;
-  }
-  .footer__inner {
-    text-align: center;
-  }
-  .footer__links {
-    Float: none;
-    Margin-left: auto;
-    Margin-right: auto;
-  }
-  .footer__right p,
-  .footer__share-button {
-    display: inline-block;
-  }
-  .layout__gutter {
-    font-size: 20px;
-    line-height: 20px;
-  }
-  .layout--no-gutter.layout--has-border:not(.layout--full-width),
-  .layout--has-gutter.layout--has-border .column__background {
-    width: 322px !important;
-  }
-  .layout--has-gutter.layout--has-border {
-    left: -1px;
-    position: relative;
-  }
-}
-@media only screen and (max-width: 320px) {
-  .border {
-    display: none;
-  }
-  .layout--no-gutter.layout--has-border:not(.layout--full-width),
-  .layout--has-gutter.layout--has-border .column__background {
-    width: 320px !important;
-  }
-  .layout--has-gutter.layout--has-border {
-    left: 0 !important;
-  }
-}
-</style>
-    
-  <!--[if !mso]><!--><style type="text/css">
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400|PT+Sans:400,700,400italic,700italic|Ubuntu:400,700,400italic,700italic);
-</style><link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400|PT+Sans:400,700,400italic,700italic|Ubuntu:400,700,400italic,700italic" rel="stylesheet" type="text/css" /><!--<![endif]--><style type="text/css">
-body,.wrapper{background-color:#e8e8e8}.wrapper h1{color:#58595b}.wrapper h1{}.wrapper h1{font-family:"Open Sans",sans-serif}.mso .wrapper h1{font-family:sans-serif !important}.wrapper h2{color:#58595b}.wrapper h2{}.wrapper h2{font-family:"Open Sans",sans-serif}.mso .wrapper h2{font-family:sans-serif !important}.wrapper h3{color:#58595b}.wrapper h3{}.wrapper h3{font-family:"Open Sans",sans-serif}.mso .wrapper h3{font-family:sans-serif !important}.wrapper a{color:#7d9eba}.wrapper a:hover{color:#486b89 !important}.column,.column__background td{color:#808285}.column,.column__background td{font-family:Ubuntu,sans-serif}.mso .column,.mso .column__background td{font-family:sans-serif !important}.border{background-color:#b5b5b5}.layout--no-gutter.layout--has-border:not(.layout--full-width),.layout--has-gutter.layout--has-border 
-.column__background,.layout--full-width.layout--has-border{border-top:1px solid #b5b5b5;border-bottom:1px solid #b5b5b5}.wrapper blockquote{border-left:4px solid #b5b5b5}.divider{background-color:#b5b5b5}.wrapper .btn a{color:#fff}.wrapper .btn a{font-family:Ubuntu,sans-serif}.mso .wrapper .btn a{font-family:sans-serif !important}.wrapper .btn a:hover{color:#fff !important}.btn--flat a,.btn--shadow a,.btn--depth a{background-color:#ff9718}.btn--ghost a{border:1px solid #ff9718}.preheader--inline,.footer__left{color:#808285}.preheader--inline,.footer__left{font-family:"PT Sans","Trebuchet MS",sans-serif}.mso .preheader--inline,.mso .footer__left{font-family:"Trebuchet MS",sans-serif !important}.wrapper .preheader--inline a,.wrapper .footer__left a{color:#808285}.wrapper .preheader--inline a:hover,.wrapper .footer__left a:hover{color:#808285 
-!important}.header__logo{color:#c3ced9}.header__logo{font-family:Roboto,Tahoma,sans-serif}.mso .header__logo{font-family:Tahoma,sans-serif !important}.wrapper .header__logo a{color:#c3ced9}.wrapper .header__logo a:hover{color:#859bb1 !important}.footer__share-button{background-color:#747474}.footer__share-button{font-family:"PT Sans","Trebuchet MS",sans-serif}.mso .footer__share-button{font-family:"Trebuchet MS",sans-serif !important}.layout__separator--inline{font-size:20px;line-height:20px;mso-line-height-rule:exactly}
-</style><meta name="robots" content="noindex,nofollow" />
-<meta property="og:title" content="My First Campaign" />
+        .wrapper a:hover {
+            text-decoration: none !important;
+        }
+
+        .btn a:hover,
+        .footer__links a:hover {
+            opacity: 0.8;
+        }
+
+        .wrapper .footer__share-button:hover {
+            color: #ffffff !important;
+            opacity: 0.8;
+        }
+
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        .column {
+            font-size: 14px;
+            line-height: 21px;
+            padding: 0;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .mso .font-avenir,
+        .mso .font-cabin,
+        .mso .font-open-sans,
+        .mso .font-ubuntu {
+            font-family: sans-serif !important;
+        }
+
+        .mso .font-bitter,
+        .mso .font-merriweather,
+        .mso .font-pt-serif {
+            font-family: Georgia, serif !important;
+        }
+
+        .mso .font-lato,
+        .mso .font-roboto {
+            font-family: Tahoma, sans-serif !important;
+        }
+
+        .mso .font-pt-sans {
+            font-family: "Trebuchet MS", sans-serif !important;
+        }
+
+        .mso .footer p {
+            margin: 0;
+        }
+
+        @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+            .fblike {
+                background-image: url(https://i7.createsend1.com/static/eb/master/13-the-blueprint-3/images/fblike@2x.png) !important;
+            }
+
+            .tweet {
+                background-image: url(https://i8.createsend1.com/static/eb/master/13-the-blueprint-3/images/tweet@2x.png) !important;
+            }
+
+            .linkedinshare {
+                background-image: url(https://i1.createsend1.com/static/eb/master/13-the-blueprint-3/images/lishare@2x.png) !important;
+            }
+
+            .forwardtoafriend {
+                background-image: url(https://i9.createsend1.com/static/eb/master/13-the-blueprint-3/images/forward@2x.png) !important;
+            }
+        }
+
+        @media only screen and (max-width: 620px) {
+            .wrapper h2,
+            .wrapper .size-18,
+            .wrapper .size-20 {
+                font-size: 17px !important;
+                line-height: 26px !important;
+            }
+
+            .wrapper .size-22 {
+                font-size: 18px !important;
+                line-height: 26px !important;
+            }
+
+            .wrapper .size-24 {
+                font-size: 20px !important;
+                line-height: 28px !important;
+            }
+
+            .wrapper h1,
+            .wrapper .size-26 {
+                font-size: 22px !important;
+                line-height: 31px !important;
+            }
+
+            .wrapper .size-28 {
+                font-size: 24px !important;
+                line-height: 32px !important;
+            }
+
+            .wrapper .size-30 {
+                font-size: 26px !important;
+                line-height: 34px !important;
+            }
+
+            .wrapper .size-32 {
+                font-size: 28px !important;
+                line-height: 36px !important;
+            }
+
+            .wrapper .size-34,
+            .wrapper .size-36 {
+                font-size: 30px !important;
+                line-height: 38px !important;
+            }
+
+            .wrapper .size-40 {
+                font-size: 32px !important;
+                line-height: 40px !important;
+            }
+
+            .wrapper .size-44 {
+                font-size: 34px !important;
+                line-height: 43px !important;
+            }
+
+            .wrapper .size-48 {
+                font-size: 36px !important;
+                line-height: 43px !important;
+            }
+
+            .wrapper .size-56 {
+                font-size: 40px !important;
+                line-height: 47px !important;
+            }
+
+            .wrapper .size-64 {
+                font-size: 44px !important;
+                line-height: 50px !important;
+            }
+
+            .divider {
+                Margin-left: auto !important;
+                Margin-right: auto !important;
+            }
+
+            .btn a {
+                display: block !important;
+                font-size: 14px !important;
+                line-height: 24px !important;
+                padding: 12px 10px !important;
+                width: auto !important;
+            }
+
+            .btn--shadow a {
+                padding: 12px 10px 13px 10px !important;
+            }
+
+            .image img {
+                height: auto;
+                width: 100%;
+            }
+
+            .layout,
+            .column,
+            .preheader__webversion,
+            .header td,
+            .footer,
+            .footer__left,
+            .footer__right,
+            .footer__inner {
+                width: 320px !important;
+            }
+
+            .preheader__snippet,
+            .layout__edges {
+                display: none !important;
+            }
+
+            .preheader__webversion {
+                text-align: center !important;
+            }
+
+            .header__logo {
+                Margin-left: 20px;
+                Margin-right: 20px;
+            }
+
+            .layout--full-width {
+                width: 100% !important;
+            }
+
+            .layout--full-width tbody,
+            .layout--full-width tr {
+                display: table;
+                Margin-left: auto;
+                Margin-right: auto;
+                width: 320px;
+            }
+
+            .column,
+            .layout__gutter,
+            .footer__left,
+            .footer__right {
+                display: block;
+                Float: left;
+            }
+
+            .footer__inner {
+                text-align: center;
+            }
+
+            .footer__links {
+                Float: none;
+                Margin-left: auto;
+                Margin-right: auto;
+            }
+
+            .footer__right p,
+            .footer__share-button {
+                display: inline-block;
+            }
+
+            .layout__gutter {
+                font-size: 20px;
+                line-height: 20px;
+            }
+
+            .layout--no-gutter.layout--has-border:not(.layout--full-width),
+            .layout--has-gutter.layout--has-border .column__background {
+                width: 322px !important;
+            }
+
+            .layout--has-gutter.layout--has-border {
+                left: -1px;
+                position: relative;
+            }
+        }
+
+        @media only screen and (max-width: 320px) {
+            .border {
+                display: none;
+            }
+
+            .layout--no-gutter.layout--has-border:not(.layout--full-width),
+            .layout--has-gutter.layout--has-border .column__background {
+                width: 320px !important;
+            }
+
+            .layout--has-gutter.layout--has-border {
+                left: 0 !important;
+            }
+        }
+    </style>
+
+    <!--[if !mso]><!-->
+    <style type="text/css">
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400|PT+Sans:400,700,400italic,700italic|Ubuntu:400,700,400italic,700italic);
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400|PT+Sans:400,700,400italic,700italic|Ubuntu:400,700,400italic,700italic"
+          rel="stylesheet" type="text/css"/><!--<![endif]-->
+    <style type="text/css">
+        body, .wrapper {
+            background-color: #e8e8e8
+        }
+
+        .wrapper h1 {
+            color: #58595b
+        }
+
+        .wrapper h1 {
+        }
+
+        .wrapper h1 {
+            font-family: "Open Sans", sans-serif
+        }
+
+        .mso .wrapper h1 {
+            font-family: sans-serif !important
+        }
+
+        .wrapper h2 {
+            color: #58595b
+        }
+
+        .wrapper h2 {
+        }
+
+        .wrapper h2 {
+            font-family: "Open Sans", sans-serif
+        }
+
+        .mso .wrapper h2 {
+            font-family: sans-serif !important
+        }
+
+        .wrapper h3 {
+            color: #58595b
+        }
+
+        .wrapper h3 {
+        }
+
+        .wrapper h3 {
+            font-family: "Open Sans", sans-serif
+        }
+
+        .mso .wrapper h3 {
+            font-family: sans-serif !important
+        }
+
+        .wrapper a {
+            color: #7d9eba
+        }
+
+        .wrapper a:hover {
+            color: #486b89 !important
+        }
+
+        .column, .column__background td {
+            color: #808285
+        }
+
+        .column, .column__background td {
+            font-family: Ubuntu, sans-serif
+        }
+
+        .mso .column, .mso .column__background td {
+            font-family: sans-serif !important
+        }
+
+        .border {
+            background-color: #b5b5b5
+        }
+
+        .layout--no-gutter.layout--has-border:not(.layout--full-width), .layout--has-gutter.layout--has-border
+        .column__background, .layout--full-width.layout--has-border {
+            border-top: 1px solid #b5b5b5;
+            border-bottom: 1px solid #b5b5b5
+        }
+
+        .wrapper blockquote {
+            border-left: 4px solid #b5b5b5
+        }
+
+        .divider {
+            background-color: #b5b5b5
+        }
+
+        .wrapper .btn a {
+            color: #fff
+        }
+
+        .wrapper .btn a {
+            font-family: Ubuntu, sans-serif
+        }
+
+        .mso .wrapper .btn a {
+            font-family: sans-serif !important
+        }
+
+        .wrapper .btn a:hover {
+            color: #fff !important
+        }
+
+        .btn--flat a, .btn--shadow a, .btn--depth a {
+            background-color: #ff9718
+        }
+
+        .btn--ghost a {
+            border: 1px solid #ff9718
+        }
+
+        .preheader--inline, .footer__left {
+            color: #808285
+        }
+
+        .preheader--inline, .footer__left {
+            font-family: "PT Sans", "Trebuchet MS", sans-serif
+        }
+
+        .mso .preheader--inline, .mso .footer__left {
+            font-family: "Trebuchet MS", sans-serif !important
+        }
+
+        .wrapper .preheader--inline a, .wrapper .footer__left a {
+            color: #808285
+        }
+
+        .wrapper .preheader--inline a:hover, .wrapper .footer__left a:hover {
+            color: #808285 !important
+        }
+
+        .header__logo {
+            color: #c3ced9
+        }
+
+        .header__logo {
+            font-family: Roboto, Tahoma, sans-serif
+        }
+
+        .mso .header__logo {
+            font-family: Tahoma, sans-serif !important
+        }
+
+        .wrapper .header__logo a {
+            color: #c3ced9
+        }
+
+        .wrapper .header__logo a:hover {
+            color: #859bb1 !important
+        }
+
+        .footer__share-button {
+            background-color: #747474
+        }
+
+        .footer__share-button {
+            font-family: "PT Sans", "Trebuchet MS", sans-serif
+        }
+
+        .mso .footer__share-button {
+            font-family: "Trebuchet MS", sans-serif !important
+        }
+
+        .layout__separator--inline {
+            font-size: 20px;
+            line-height: 20px;
+            mso-line-height-rule: exactly
+        }
+    </style>
+    <meta name="robots" content="noindex,nofollow"/>
+    <meta property="og:title" content="My First Campaign"/>
 </head>
 <!--[if mso]>
-  <body class="mso">
+<body class="mso">
 <![endif]-->
 <!--[if !mso]><!-->
-  <body class="no-padding" style="margin: 0;-webkit-text-size-adjust: 100%;background-color: #e8e8e8;">
+<body class="no-padding" style="margin: 0;-webkit-text-size-adjust: 100%;background-color: #e8e8e8;">
 <!--<![endif]-->
-    <div class="wrapper" style="background-color: #e8e8e8;">
-      <table style='border-collapse: collapse;table-layout: fixed;color: #808285;font-family: "PT Sans","Trebuchet MS",sans-serif;' align="center">
-        <tbody><tr>
-          <td class="preheader__snippet" style="padding: 10px 0 5px 0;vertical-align: top;" width="300">
-            
-          </td>
-          <td class="preheader__webversion" style="text-align: right;padding: 10px 0 5px 0;vertical-align: top;" width="300">
-            
-          </td>
+<div class="wrapper" style="background-color: #e8e8e8; ">
+    <table style='border-collapse: collapse;table-layout: fixed;color: #808285;font-family: "PT Sans","Trebuchet MS",sans-serif;'
+           align="center">
+        <tbody>
+        <tr>
+            <td class="preheader__snippet" style="padding: 10px 0 5px 0;vertical-align: top;" width="300">
+
+            </td>
+            <td class="preheader__webversion" style="text-align: right;padding: 10px 0 5px 0;vertical-align: top;"
+                width="300">
+
+            </td>
         </tr>
-      </tbody></table>
-      
-      <table class="layout layout--no-gutter" style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;background-position: 0px 0px;background-image: url(https://i1.createsend1.com/ei/i/B3/3C2/82D/062634/csfinal/bg_header1.jpg);background-repeat: repeat;" align="center">
-        <tbody><tr>
-          <td class="column" style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;" width="600">
-    
-        <div class="image" style="font-size: 12px;font-style: normal;font-weight: 400;" align="center">
-          <img style="display: block;border: 0;max-width: 149px;" src="images/logo1.png" alt="" width="149" height="148" />
-        </div>
-      
-            <div style="Margin-left: 20px;Margin-right: 20px;Margin-top: 20px;">
-      <h1 style='Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;font-size: 26px;line-height: 34px;color: #58595b;font-family: "Open Sans",sans-serif;text-align: center;'><span style="color:#ffffff">16 &#1059;&#1050;&#1056;&#1040;&#1031;&#1053;&#1057;&#1068;&#1050;&#1040; &#1050;&#1054;&#1053;&#1060;&#1045;&#1056;&#1045;&#1053;&#1062;&#1030;&#1071;<br />
-&#1047; &#1050;&#1054;&#1057;&#1052;&#1030;&#1063;&#1053;&#1048;&#1061; &#1044;&#1054;&#1057;&#1051;&#1030;&#1044;&#1046;&#1045;&#1053;&#1068;</span></h1><p style="Margin-top: 20px;Margin-bottom: 0;font-family: open sans,sans-serif;text-align: center;"><span class="font-open-sans"><span style="color:#d9d9d9">&#1044;&#1077;&#1088;&#1078;&#1072;&#1074;&#1085;&#1077; &#1082;&#1086;&#1089;&#1084;&#1110;&#1095;&#1085;&#1077; &#1072;&#1075;&#1077;&#1085;&#1090;&#1089;&#1090;&#1074;&#1086; &#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1080;<br />
-&#1053;&#1072;&#1094;&#1110;&#1086;&#1085;&#1072;&#1083;&#1100;&#1085;&#1072; &#1072;&#1082;&#1072;&#1076;&#1077;&#1084;&#1110;&#1103; &#1085;&#1072;&#1091;&#1082; &#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1080;<br />
-&#1030;&#1085;&#1089;&#1090;&#1080;&#1090;&#1091;&#1090; &#1082;&#1086;&#1089;&#1084;&#1110;&#1095;&#1085;&#1080;&#1093; &#1076;&#1086;&#1089;&#1083;&#1110;&#1076;&#1078;&#1077;&#1085;&#1100;</span></span></p>
-    </div>
-    
-          </td>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;background-position: 0px 0px;background-image: url(https://i1.createsend1.com/ei/i/B3/3C2/82D/062634/csfinal/bg_header1.jpg);background-repeat: repeat;"
+           align="center">
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="600">
+
+                <div class="image" style="font-size: 12px;font-style: normal;font-weight: 400;" align="center">
+                    <img style="display: block;border: 0;max-width: 149px;" src="http://space-conf.ikd.kiev.ua/images/logo.png" alt="" width="149"
+                         height="148"/>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;Margin-top: 20px;">
+                    <h1 style='Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;font-size: 26px;line-height: 34px;color: #58595b;font-family: "Open Sans",sans-serif;text-align: center;'><span
+                            style="color:#ffffff">16 УКРАЇНСЬКА КОНФЕРЕНЦІЯ З КОСМІЧНИХ ДОСЛІДЖЕНЬ</span>
+                    </h1>
+                    <p style="Margin-top: 20px;Margin-bottom: 0;font-family: open sans,sans-serif;text-align: center;"><span
+                            class="font-open-sans"><span style="color:#d9d9d9">
+                        Державне космічне агентство України<br/>
+                        Національна академія наук України<br/>
+                        Інститут космічних досліджень
+</span></span>
+                    </p>
+                </div>
+
+            </td>
         </tr>
-      </tbody></table>
-  
-      <table class="layout layout--no-gutter" style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;" align="center" emb-background-style>
-        <tbody><tr>
-          <td class="column" style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;" width="600">
-    
-            <div style="Margin-left: 20px;Margin-right: 20px;">
-      <div style="line-height:20px;font-size:1px">&nbsp;</div>
-    </div>
-    
-            <div style="Margin-left: 20px;Margin-right: 20px;">
-      
-<h2 style='Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;font-size: 20px;line-height: 28px;color: #58595b;font-family: "Open Sans",sans-serif;text-align: center;'>&#1055;&#1077;&#1088;&#1096;&#1077; &#1110;&#1085;&#1092;&#1086;&#1088;&#1084;&#1072;&#1094;&#1110;&#1081;&#1085;&#1077; &#1087;&#1086;&#1074;&#1110;&#1076;&#1086;&#1084;&#1083;&#1077;&#1085;&#1085;&#1103;</h2><p style="Margin-top: 16px;Margin-bottom: 0;">&#1064;&#1072;&#1085;&#1086;&#1074;&#1085;&#1110; &#1082;&#1086;&#1083;&#1077;&#1075;&#1080;!</p><p style="Margin-top: 20px;Margin-bottom: 20px;">&#1047;&#1072;&#1087;&#1088;&#1086;&#1096;&#1091;&#1108;&#1084;&#1086; &#1042;&#1072;&#1089; &#1074;&#1079;&#1103;&#1090;&#1080; &#1091;&#1095;&#1072;&#1089;&#1090;&#1100; &#1074; &#1088;&#1086;&#1073;&#1086;&#1090;&#1110; 16-&#1111; 
-&#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1089;&#1100;&#1082;&#1086;&#1111; &#1082;&#1086;&#1085;&#1092;&#1077;&#1088;&#1077;&#1085;&#1094;&#1110;&#1111; &#1079; &#1082;&#1086;&#1089;&#1084;&#1110;&#1095;&#1085;&#1080;&#1093;<br />
-&#1076;&#1086;&#1089;&#1083;&#1110;&#1076;&#1078;&#1077;&#1085;&#1100;, &#1103;&#1082;&#1072; &#1074;&#1110;&#1076;&#1073;&#1091;&#1076;&#1077;&#1090;&#1100;&#1089;&#1103; &#1079; 22 &#1076;&#1086; 26 &#1089;&#1077;&#1088;&#1087;&#1085;&#1103; 2016 &#1088;&#1086;&#1082;&#1091;.</p>
-    </div>
-    
-            <div style="Margin-left: 20px;Margin-right: 20px;">
-      <div class="divider" style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;Margin-bottom: 20px;">&nbsp;</div>
-    </div>
-    
-            <div style="Margin-left: 20px;Margin-right: 20px;">
-      
-<h2 style='Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;font-size: 20px;line-height: 28px;color: #58595b;font-family: "Open Sans",sans-serif;text-align: center;'>&#1055;&#1088;&#1086;&#1075;&#1088;&#1072;&#1084;&#1085;&#1080;&#1081; &#1082;&#1086;&#1084;&#1110;&#1090;&#1077;&#1090; &#1050;&#1086;&#1085;&#1092;&#1077;&#1088;&#1077;&#1085;&#1094;&#1110;&#1111;</h2><ol style="Margin-top: 16px;Margin-bottom: 20px;Margin-left: 24px;padding: 0;"><li style="Margin-top: 16px;Margin-bottom: 0;">&#1051;.&#1070;. &#1057;&#1072;&#1073;&#1072;&#1076;&#1086;&#1096; &#8211; &#1044;&#1077;&#1088;&#1078;&#1072;&#1074;&#1085;&#1077; &#1082;&#1086;&#1089;&#1084;&#1110;&#1095;&#1085;&#1077; &#1072;&#1075;&#1077;&#1085;&#1090;&#1089;&#1090;&#1074;&#1086; &#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1080; &#1044;&#1050;&#1040;&#1059; (&#1050;&#1080;&#1111;&#1074;, 
-&#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1072;)</li><li style="Margin-top: 0;Margin-bottom: 0;">O.&#1055;. &#1060;&#1077;&#1076;&#1086;&#1088;&#1086;&#1074; &#8211; &#1030;&#1085;&#1089;&#1090;&#1080;&#1090;&#1091;&#1090; &#1082;&#1086;&#1089;&#1084;&#1110;&#1095;&#1085;&#1080;&#1093; &#1076;&#1086;&#1089;&#1083;&#1110;&#1076;&#1078;&#1077;&#1085;&#1100; &#1053;&#1040;&#1053;&#1059;-&#1044;&#1050;&#1040;&#1059; (&#1050;&#1080;&#1111;&#1074;, &#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1072;)</li><li style="Margin-top: 0;Margin-bottom: 0;">M. &#1041;&#1072;&#1085;&#1072;&#1096;&#1082;&#1077;&#1074;&#1080;&#1095; &#8211; &#1050;&#1086;&#1089;&#1084;&#1110;&#1095;&#1085;&#1077; &#1072;&#1075;&#1077;&#1085;&#1090;&#1089;&#1090;&#1074;&#1086; &#1055;&#1086;&#1083;&#1100;&#1097;&#1110; POLSA (&#1042;&#1072;&#1088;&#1096;&#1072;&#1074;&#1072;, 
-&#1055;&#1086;&#1083;&#1100;&#1097;&#1072;)</li><li style="Margin-top: 0;Margin-bottom: 0;">&#1051;.M. &#1047;&#1077;&#1083;&#1077;&#1085;&#1080;&#1081; &#8211; &#1030;&#1085;&#1089;&#1090;&#1080;&#1090;&#1091;&#1090; &#1082;&#1086;&#1089;&#1084;&#1110;&#1095;&#1085;&#1080;&#1093; &#1076;&#1086;&#1089;&#1083;&#1110;&#1076;&#1078;&#1077;&#1085;&#1100; &#1056;&#1040;&#1053; (Mo&#1089;&#1082;&#1074;&#1072;, &#1056;&#1086;&#1089;&#1110;&#1103;)</li><li style="Margin-top: 0;Margin-bottom: 0;">&#1042;.&#1028;. &#1050;&#1086;&#1088;&#1077;&#1087;&#1072;&#1085;&#1086;&#1074; &#8211; &#1051;&#1100;&#1074;&#1110;&#1074;&#1089;&#1100;&#1082;&#1080;&#1081; &#1094;&#1077;&#1085;&#1090;&#1088; &#1030;&#1085;&#1089;&#1090;&#1080;&#1090;&#1091;&#1090;&#1091; &#1082;&#1086;&#1089;&#1084;&#1110;&#1095;&#1085;&#1080;&#1093; &#1076;&#1086;&#1089;&#1083;&#1110;&#1076;&#1078;&#1077;&#1085;&#1100; 
-&#1053;&#1040;&#1053;&#1059;-&#1044;&#1050;&#1040;&#1059; (&#1051;&#1100;&#1074;&#1110;&#1074;, &#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1072;)</li><li style="Margin-top: 0;Margin-bottom: 0;">&#1042;.&#1044;. &#1050;&#1091;&#1079;&#1085;&#1077;&#1094;&#1086;&#1074; &#8211; &#1030;&#1085;&#1089;&#1090;&#1080;&#1090;&#1091;&#1090; &#1079;&#1077;&#1084;&#1085;&#1086;&#1075;&#1086; &#1084;&#1072;&#1075;&#1085;&#1077;&#1090;&#1080;&#1079;&#1084;&#1091;, &#1110;&#1086;&#1085;&#1086;&#1089;&#1092;&#1077;&#1088;&#1080; &#1090;&#1072; &#1088;&#1086;&#1079;&#1087;&#1086;&#1074;&#1089;&#1102;&#1076;&#1078;&#1077;&#1085;&#1085;&#1103; &#1088;&#1072;&#1076;&#1110;&#1086;&#1093;&#1074;&#1080;&#1083;&#1100; &#1056;&#1040;&#1053; (&#1058;&#1088;&#1086;&#1111;&#1094;&#1100;&#1082;, &#1056;&#1086;&#1089;&#1110;&#1103;)</li><li style="Margin-top: 0;Margin-bottom: 0;">&#1042;.&#1052;. 
-&#1050;&#1091;&#1085;&#1094;&#1077;&#1074;&#1080;&#1095; &#8211; &#1030;&#1085;&#1089;&#1090;&#1080;&#1090;&#1091;&#1090; &#1082;&#1086;&#1089;&#1084;&#1110;&#1095;&#1085;&#1080;&#1093; &#1076;&#1086;&#1089;&#1083;&#1110;&#1076;&#1078;&#1077;&#1085;&#1100; &#1053;&#1040;&#1053;&#1059;-&#1044;&#1050;&#1040;&#1059; (&#1050;&#1080;&#1111;&#1074;, &#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1072;)</li><li style="Margin-top: 0;Margin-bottom: 0;">&#1051;.&#1053;. &#1051;&#1080;&#1090;&#1074;&#1080;&#1085;&#1077;&#1085;&#1082;&#1086; &#8211; &#1056;&#1072;&#1076;&#1110;&#1086;&#1072;&#1089;&#1090;&#1088;&#1086;&#1085;&#1086;&#1084;&#1110;&#1095;&#1085;&#1080;&#1081; &#1110;&#1085;&#1089;&#1090;&#1080;&#1090;&#1091;&#1090; &#1053;&#1040;&#1053;&#1059; (&#1061;&#1072;&#1088;&#1082;&#1110;&#1074;, &#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1072;)</li><li style="Margin-top: 0;Margin-bottom: 
-0;">&#1042;.&#1030;. &#1051;&#1103;&#1083;&#1100;&#1082;&#1086; &#8211; &#1053;&#1072;&#1091;&#1082;&#1086;&#1074;&#1080;&#1081; &#1094;&#1077;&#1085;&#1090;&#1088; &#1072;&#1077;&#1088;&#1086;&#1082;&#1086;&#1089;&#1084;&#1110;&#1095;&#1085;&#1080;&#1093; &#1076;&#1086;&#1089;&#1083;&#1110;&#1076;&#1078;&#1077;&#1085;&#1100; &#1047;&#1077;&#1084;&#1083;&#1110; &#1030;&#1043;&#1053; &#1053;&#1040;&#1053;&#1059;(&#1050;&#1080;&#1111;&#1074;, &#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1072;)</li><li style="Margin-top: 0;Margin-bottom: 0;">&#1054;.&#1051;. Ma&#1082;&#1072;&#1088;&#1086;&#1074; &#8211; &#1044;&#1077;&#1088;&#1078;&#1072;&#1074;&#1085;&#1077; &#1087;&#1110;&#1076;&#1087;&#1088;&#1080;&#1108;&#1084;&#1089;&#1090;&#1074;&#1086; &#171;&#1050;&#1086;&#1085;&#1089;&#1090;&#1088;&#1091;&#1082;&#1090;&#1086;&#1088;&#1089;&#1100;&#1082;&#1077; &#1073;&#1102;&#1088;&#1086; 
-&#171;&#1055;&#1110;&#1074;&#1076;&#1077;&#1085;&#1085;&#1077;&#187; &#1110;&#1084;. &#1052;.&#1050;. &#1071;&#1085;&#1075;&#1077;&#1083;&#1103; (&#1044;&#1085;&#1110;&#1087;&#1088;&#1086;&#1087;&#1077;&#1090;&#1088;&#1086;&#1074;&#1089;&#1100;&#1082;, &#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1072;)</li><li style="Margin-top: 0;Margin-bottom: 0;">O.K. &#1063;&#1077;&#1088;&#1077;&#1084;&#1085;&#1080;&#1093; &#8211; &#1030;&#1085;&#1089;&#1090;&#1080;&#1090;&#1091;&#1090; &#1082;&#1086;&#1089;&#1084;&#1110;&#1095;&#1085;&#1080;&#1093; &#1076;&#1086;&#1089;&#1083;&#1110;&#1076;&#1078;&#1077;&#1085;&#1100; &#1053;&#1040;&#1053;&#1059;-&#1044;&#1050;&#1040;&#1059; (&#1050;&#1080;&#1111;&#1074;, &#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1072;)</li><li style="Margin-top: 0;Margin-bottom: 0;">&#1070;.&#1043;. &#1064;&#1082;&#1091;&#1088;&#1072;&#1090;&#1086;&#1074; &#8211; 
-&#1053;&#1044;&#1030; &#1072;&#1089;&#1090;&#1088;&#1086;&#1085;&#1086;&#1084;&#1110;&#1111; &#1061;&#1053;&#1059; (&#1061;&#1072;&#1088;&#1082;&#1110;&#1074;, &#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1072;)</li><li style="Margin-top: 0;Margin-bottom: 0;">&#1071;.&#1057;. &#1071;&#1094;&#1082;&#1110;&#1074; &#8211; &#1043;&#1086;&#1083;&#1086;&#1074;&#1085;&#1072; &#1072;&#1089;&#1090;&#1088;&#1086;&#1085;&#1086;&#1084;&#1110;&#1095;&#1085;&#1072; &#1086;&#1073;&#1089;&#1077;&#1088;&#1074;&#1072;&#1090;&#1086;&#1088;&#1110;&#1103; &#1053;&#1040;&#1053;&#1059; (&#1050;&#1080;&#1111;&#1074;, &#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1072;)</li><li style="Margin-top: 0;Margin-bottom: 0;">&#1042;.&#1052;. &#1064;&#1091;&#1083;&#1100;&#1075;&#1072; &#8211; &#1056;&#1072;&#1076;&#1110;&#1086;&#1072;&#1089;&#1090;&#1088;&#1086;&#1085;&#1086;&#1084;&#1110;&#1095;&#1085;&#1080;&#1081; 
-&#1110;&#1085;&#1089;&#1090;&#1080;&#1090;&#1091;&#1090; &#1053;&#1040;&#1053;&#1059; (&#1061;&#1072;&#1088;&#1082;&#1110;&#1074;, &#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1072;)</li><li style="Margin-top: 0;Margin-bottom: 0;">&#1028;.&#1051;. &#1050;&#1086;&#1088;&#1076;&#1102;&#1084; &#8211; &#1030;&#1085;&#1089;&#1090;&#1080;&#1090;&#1091;&#1090; &#1073;&#1086;&#1090;&#1072;&#1085;&#1110;&#1082;&#1080; &#1110;&#1084;. &#1052;.&#1043;. &#1061;&#1086;&#1083;&#1086;&#1076;&#1085;&#1086;&#1075;&#1086; &#1053;&#1040;&#1053;&#1059; (&#1050;&#1080;&#1111;&#1074;, &#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1072;)</li><li style="Margin-top: 0;Margin-bottom: 0;">&#1051;.&#1060;. &#1063;&#1086;&#1088;&#1085;&#1086;&#1075;&#1086;&#1088; &#8211; &#1061;&#1072;&#1088;&#1082;&#1110;&#1074;&#1089;&#1100;&#1082;&#1080;&#1081; 
-&#1085;&#1072;&#1094;&#1110;&#1086;&#1085;&#1072;&#1083;&#1100;&#1085;&#1080;&#1081; &#1091;&#1085;&#1110;&#1074;&#1077;&#1088;&#1089;&#1080;&#1090;&#1077;&#1090; &#1110;&#1084;. &#1042;.&#1053;. &#1050;&#1072;&#1088;&#1072;&#1079;&#1110;&#1085;&#1072; (&#1061;&#1072;&#1088;&#1082;&#1110;&#1074;, &#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1072;)</li></ol>
-    </div>
-    
-            <div style="Margin-left: 20px;Margin-right: 20px;">
-      <div class="divider" style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;">&nbsp;</div>
-    </div>
-    
-          </td>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+           align="center" emb-background-style>
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="600">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div style="line-height:20px;font-size:1px">&nbsp;</div>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+
+                    <h2 style='Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;font-size: 20px;line-height: 28px;color: #58595b;font-family: "Open Sans",sans-serif;text-align: center;'>
+                        Перше інформаційне повідомлення</h2>
+                    <p style="Margin-top: 16px;Margin-bottom: 0;">Шановні колеги!</p>
+                    <p style="Margin-top: 20px;Margin-bottom: 20px;">Запрошуємо Вас взяти участь в роботі 16-ї
+                        Української конференції з космічних<br/>
+                        досліджень, яка відбудеться з 22 до 26 серпня 2016 року.</p>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div class="divider"
+                         style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;Margin-bottom: 20px;">
+                        &nbsp;</div>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+
+                    <h2 style='Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;font-size: 20px;line-height: 28px;color: #58595b;font-family: "Open Sans",sans-serif;text-align: center;'>
+                        Програмний комітет Конференції</h2>
+                    <ol style="Margin-top: 16px;Margin-bottom: 20px;Margin-left: 24px;padding: 0;">
+                        <li style="Margin-top: 16px;Margin-bottom: 0;">
+                            Л.Ю. Сабадош – Державне космічне агентство України ДКАУ (Київ, Україна)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            O.П. Федоров – Інститут космічних досліджень НАНУ-ДКАУ (Київ, Україна)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            M. Банашкевич – Космічне агентство Польщі POLSA (Варшава, Польща)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            Л.M. Зелений – Інститут космічних досліджень РАН (Moсква, Росія)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            В.Є. Корепанов – Львівський центр Інституту космічних досліджень НАНУ-ДКАУ (Львів, Україна)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            В.Д. Кузнецов – Інститут земного магнетизму, іоносфери та розповсюдження радіохвиль РАН
+                            (Троїцьк, Росія)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            В.М. Кунцевич – Інститут космічних досліджень НАНУ-ДКАУ (Київ, Україна)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            Л.Н. Литвиненко – Радіоастрономічний інститут НАНУ (Харків, Україна)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom:
+0;">
+                            В.І. Лялько – Науковий центр аерокосмічних досліджень Землі ІГН НАНУ(Київ, Україна)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            О.Л. Maкаров – Державне підприємство «Конструкторське бюро «Південне» ім. М.К. Янгеля
+                            (Дніпропетровськ, Україна)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            O.K. Черемних – Інститут космічних досліджень НАНУ-ДКАУ (Київ, Україна)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            Ю.Г. Шкуратов – НДІ астрономії ХНУ (Харків, Україна)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            Я.С. Яцків – Головна астрономічна обсерваторія НАНУ (Київ, Україна)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            В.М. Шульга – Радіоастрономічний інститут НАНУ (Харків, Україна)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            Є.Л. Кордюм – Інститут ботаніки ім. М.Г. Холодного НАНУ (Київ, Україна)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            Л.Ф. Чорногор – Харківський національний університет ім. В.Н. Каразіна (Харків, Україна)
+                        </li>
+                    </ol>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div class="divider"
+                         style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;">
+                        &nbsp;</div>
+                </div>
+
+            </td>
         </tr>
-      </tbody></table>
-  
-      <table class="layout layout--no-gutter" style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;" align="center" emb-background-style>
-        <tbody><tr>
-          <td class="column" style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;" width="600">
-    
-            <div style="Margin-left: 20px;Margin-right: 20px;">
-      <div style="line-height:20px;font-size:1px">&nbsp;</div>
-    </div>
-    
-            <div style="Margin-left: 20px;Margin-right: 20px;">
-      <h3 style='Margin-top: 0;Margin-bottom: 12px;font-style: normal;font-weight: normal;font-size: 16px;line-height: 24px;color: #58595b;font-family: "Open Sans",sans-serif;'>&#1052;&#1086;&#1074;&#1080; &#1082;&#1086;&#1085;&#1092;&#1077;&#1088;&#1077;&#1085;&#1094;&#1110;&#1111;: &#1091;&#1082;&#1088;&#1072;&#1111;&#1085;&#1089;&#1100;&#1082;&#1072;, &#1088;&#1086;&#1089;&#1110;&#1081;&#1089;&#1100;&#1082;&#1072;, &#1072;&#1085;&#1075;&#1083;&#1110;&#1081;&#1089;&#1100;&#1082;&#1072;</h3>
-    </div>
-    
-            <div style="Margin-left: 20px;Margin-right: 20px;">
-      <div style="line-height:20px;font-size:1px">&nbsp;</div>
-    </div>
-    
-          </td>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+           align="center" emb-background-style>
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="600">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div style="line-height:20px;font-size:1px">&nbsp;</div>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <h3 style='Margin-top: 0;Margin-bottom: 12px;font-style: normal;font-weight: normal;font-size: 16px;line-height: 24px;color: #58595b;font-family: "Open Sans",sans-serif;'>
+                        Мови конференції: українська, російська, англійська
+                    </h3>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div style="line-height:20px;font-size:1px">&nbsp;</div>
+                </div>
+
+            </td>
         </tr>
-      </tbody></table>
-  
-      <table class="layout layout--no-gutter" style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;" align="center" emb-background-style>
-        <tbody><tr>
-          <td class="column" style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;" width="600">
-    
-            <div style="Margin-left: 20px;Margin-right: 20px;">
-      <div class="divider" style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;Margin-bottom: 20px;">&nbsp;</div>
-    </div>
-    
-            <div style="Margin-left: 20px;Margin-right: 20px;">
-      
-<h2 style='Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;font-size: 20px;line-height: 28px;color: #58595b;font-family: "Open Sans",sans-serif;text-align: center;'>&#1055;&#1083;&#1072;&#1085;&#1091;&#1102;&#1090;&#1100;&#1089;&#1103; &#1085;&#1072;&#1089;&#1090;&#1091;&#1087;&#1085;&#1110; &#1090;&#1077;&#1084;&#1072;&#1090;&#1080;&#1095;&#1085;&#1110; &#1089;&#1077;&#1082;&#1094;&#1110;&#1111;</h2><ol style="Margin-top: 16px;Margin-bottom: 20px;Margin-left: 24px;padding: 0;"><li style="Margin-top: 16px;Margin-bottom: 0;">&#1044;&#1086;&#1089;&#1083;&#1110;&#1076;&#1078;&#1077;&#1085;&#1085;&#1103; &#1073;&#1083;&#1080;&#1078;&#1085;&#1100;&#1086;&#1075;&#1086; &#1082;&#1086;&#1089;&#1084;&#1086;&#1089;&#1091; (&#1074; &#1090;&#1086;&#1084;&#1091; &#1095;&#1080;&#1089;&#1083;&#1110; &#1057;&#1086;&#1085;&#1094;&#1103;, 
-&#1089;&#1086;&#1085;&#1103;&#1095;&#1085;&#1086;-&#1079;&#1077;&#1084;&#1085;&#1080;&#1093;<br />
-&#1079;&#1074;&#8217;&#1103;&#1079;&#1082;&#1110;&#1074;, &#1084;&#1072;&#1075;&#1085;&#1110;&#1090;&#1086;&#1089;&#1092;&#1077;&#1088;&#1080;, &#1110;&#1086;&#1085;&#1086;&#1089;&#1092;&#1077;&#1088;&#1080;)</li><li style="Margin-top: 0;Margin-bottom: 0;">&#1050;&#1086;&#1089;&#1084;&#1110;&#1095;&#1085;&#1072; &#1073;&#1110;&#1086;&#1083;&#1086;&#1075;&#1110;&#1103;, &#1084;&#1077;&#1076;&#1080;&#1094;&#1080;&#1085;&#1072; &#1110; &#1085;&#1072;&#1091;&#1082;&#1080; &#1087;&#1088;&#1086; &#1084;&#1110;&#1082;&#1088;&#1086;&#1075;&#1088;&#1072;&#1074;&#1110;&#1090;&#1072;&#1094;&#1110;&#1102;</li><li style="Margin-top: 0;Margin-bottom: 0;">&#1040;&#1089;&#1090;&#1088;&#1086;&#1092;&#1110;&#1079;&#1080;&#1095;&#1085;&#1110; &#1090;&#1072; &#1082;&#1086;&#1089;&#1084;&#1086;&#1083;&#1086;&#1075;&#1110;&#1095;&#1085;&#1110; 
-&#1076;&#1086;&#1089;&#1083;&#1110;&#1076;&#1078;&#1077;&#1085;&#1085;&#1103;</li><li style="Margin-top: 0;Margin-bottom: 0;">&#1055;&#1088;&#1080;&#1083;&#1072;&#1076;&#1080;, &#1084;&#1072;&#1090;&#1077;&#1088;&#1110;&#1072;&#1083;&#1080; &#1090;&#1072; &#1090;&#1077;&#1093;&#1085;&#1086;&#1083;&#1086;&#1075;&#1110;&#1111; &#1076;&#1083;&#1103; &#1082;&#1086;&#1089;&#1084;&#1110;&#1095;&#1085;&#1080;&#1093; &#1076;&#1086;&#1089;&#1083;&#1110;&#1076;&#1078;&#1077;&#1085;&#1100;</li><li style="Margin-top: 0;Margin-bottom: 0;">&#1050;&#1086;&#1089;&#1084;&#1110;&#1095;&#1085;&#1110; &#1072;&#1087;&#1072;&#1088;&#1072;&#1090;&#1080; &#1090;&#1072; &#1089;&#1080;&#1089;&#1090;&#1077;&#1084;&#1080; &#1076;&#1083;&#1103; &#1082;&#1086;&#1089;&#1084;&#1110;&#1095;&#1085;&#1080;&#1093; &#1076;&#1086;&#1089;&#1083;&#1110;&#1076;&#1078;&#1077;&#1085;&#1100;</li><li style="Margin-top: 
-0;Margin-bottom: 0;">&#1053;&#1072;&#1079;&#1077;&#1084;&#1085;&#1110; &#1088;&#1072;&#1076;&#1110;&#1086;&#1092;&#1110;&#1079;&#1080;&#1095;&#1085;&#1110; &#1076;&#1086;&#1089;&#1083;&#1110;&#1076;&#1078;&#1077;&#1085;&#1085;&#1103; &#1082;&#1086;&#1089;&#1084;&#1086;&#1089;&#1091;</li><li style="Margin-top: 0;Margin-bottom: 0;">&#1057;&#1087;&#1086;&#1089;&#1090;&#1077;&#1088;&#1077;&#1078;&#1077;&#1085;&#1085;&#1103; &#1047;&#1077;&#1084;&#1083;&#1110; &#1079; &#1082;&#1086;&#1089;&#1084;&#1086;&#1089;&#1091;</li></ol>
-    </div>
-    
-            <div style="Margin-left: 20px;Margin-right: 20px;">
-      <div class="divider" style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;">&nbsp;</div>
-    </div>
-    
-          </td>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+           align="center" emb-background-style>
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="600">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div class="divider"
+                         style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;Margin-bottom: 20px;">
+                        &nbsp;</div>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+
+                    <h2 style='Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;font-size: 20px;line-height: 28px;color: #58595b;font-family: "Open Sans",sans-serif;text-align: center;'>
+                        Плануються наступні тематичні секції
+                    </h2>
+                    <ol style="Margin-top: 16px;Margin-bottom: 20px;Margin-left: 24px;padding: 0;">
+                        <li style="Margin-top: 16px;Margin-bottom: 0;">
+                            Дослідження ближнього космосу (в тому числі Сонця, сонячно-земних
+                            зв’язків, магнітосфери, іоносфери)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            Космічна біологія, медицина і науки про мікрогравітацію
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">Астрофізичні та космологічні дослідження</li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">Прилади, матеріали та технології для космічних
+                            досліджень
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">Космічні апарати та системи для космічних
+                            досліджень
+                        </li>
+                        <li style="Margin-top:
+0;Margin-bottom: 0;">Наземні радіофізичні дослідження космосу
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">Спостереження Землі з космосу</li>
+                    </ol>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div class="divider"
+                         style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;">
+                        &nbsp;</div>
+                </div>
+
+            </td>
         </tr>
-      </tbody></table>
-  
-      <table class="layout layout--no-gutter" style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;" align="center" emb-background-style>
-        <tbody><tr>
-          <td class="column" style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;" width="200">
-      
-          <div style="Margin-left: 20px;Margin-right: 20px;">
-      <h2 style='Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;font-size: 20px;line-height: 28px;color: #58595b;font-family: "Open Sans",sans-serif;'>&#1056;&#1077;&#1075;&#1083;&#1072;&#1084;&#1077;&#1085;&#1090; &#1050;&#1086;&#1085;&#1092;&#1077;&#1088;&#1077;&#1085;&#1094;&#1110;&#1111;</h2>
-    </div>
-      
-          </td>
-          <td class="column" style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;" width="400">
-      
-          <div style="Margin-left: 20px;Margin-right: 20px;">
-      <blockquote style="Margin-top: 0;Margin-bottom: 0;Margin-left: 0;Margin-right: 0;padding-left: 14px;border-left: 4px solid #b5b5b5;"><p style="Margin-top: 0;Margin-bottom: 0;">&#1053;&#1072; &#1050;&#1086;&#1085;&#1092;&#1077;&#1088;&#1077;&#1085;&#1094;&#1110;&#1111; &#1073;&#1091;&#1076;&#1091;&#1090;&#1100; &#1087;&#1088;&#1077;&#1076;&#1089;&#1090;&#1072;&#1074;&#1083;&#1077;&#1085;&#1110; &#1079;&#1072;&#1087;&#1088;&#1086;&#1096;&#1077;&#1085;&#1110;<br />
-&#1076;&#1086;&#1087;&#1086;&#1074;&#1110;&#1076;&#1110; &#1090;&#1088;&#1080;&#1074;&#1072;&#1083;&#1110;&#1089;&#1090;&#1102; 40 &#1093;&#1074;., &#1087;&#1083;&#1077;&#1085;&#1072;&#1088;&#1085;&#1110; &#1076;&#1086;&#1087;&#1086;&#1074;&#1110;&#1076;&#1110; &#8211; 30 &#1093;&#1074;. &#1090;&#1072; &#1089;&#1077;&#1089;&#1110;&#1081;&#1085;&#1110; &#1076;&#1086;&#1087;&#1086;&#1074;&#1110;&#1076;&#1110; &#1090;&#1088;&#1080;&#1074;&#1072;&#1083;&#1110;&#1089;&#1090;&#1102;&nbsp;20 &#1093;&#1074;. &#1055;&#1083;&#1072;&#1085;&#1091;&#1108;&#1090;&#1100;&#1089;&#1103; &#1089;&#1090;&#1077;&#1085;&#1076;&#1086;&#1074;&#1072; &#1089;&#1077;&#1089;&#1110;&#1103;, &#1079; &#1084;&#1086;&#1078;&#1083;&#1080;&#1074;&#1110;&#1089;&#1090;&#1102; 5-&#1093;&#1074;&#1080;&#1083;&#1080;&#1085;&#1085;&#1086;&#1075;&#1086; &#1091;&#1089;&#1085;&#1086;&#1075;&#1086; 
-&#1087;&#1088;&#1077;&#1076;&#1089;&#1090;&#1072;&#1074;&#1083;&#1077;&#1085;&#1085;&#1103;&nbsp;&#1088;&#1077;&#1079;&#1091;&#1083;&#1100;&#1090;&#1072;&#1090;&#1110;&#1074;. &#1054;&#1076;&#1080;&#1085; &#1091;&#1095;&#1072;&#1089;&#1085;&#1080;&#1082; &#1084;&#1086;&#1078;&#1077; &#1074;&#1080;&#1089;&#1090;&#1091;&#1087;&#1080;&#1090;&#1080; &#1079; &#1086;&#1076;&#1085;&#1110;&#1108;&#1102; &#1087;&#1083;&#1077;&#1085;&#1072;&#1088;&#1085;&#1086;&#1102; &#1076;&#1086;&#1087;&#1086;&#1074;&#1110;&#1076;&#1076;&#1102;, &#1072;&#1073;&#1086; &#1079;<br />
-&#1076;&#1074;&#1086;&#1084;&#1072; &#1089;&#1077;&#1089;&#1110;&#1081;&#1085;&#1080;&#1084;&#1080;</p></blockquote>
-    </div>
-      
-          </td>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+           align="center" emb-background-style>
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="600">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <h2 style='Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;font-size: 20px;line-height: 28px;color: #58595b;font-family: "Open Sans",sans-serif;text-align: center;'>
+                        Регламент Конференції</h2>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <p class="size-16" style="Margin-top: 0;Margin-bottom: 20px;font-size: 16px;line-height: 24px;">
+                        На Конференції будуть представлені запрошені
+                        доповіді тривалістю 40 хв., пленарні доповіді – 30 хв. та сесійні доповіді тривалістю 20 хв.
+                        Планується стендова сесія, з можливістю 5-хвилинного усного представлення результатів. Один
+                        учасник може виступити з однією пленарною доповіддю, або з
+                        двома сесійними
+                    </p>
+                </div>
+            </td>
+            </td>
         </tr>
-      </tbody></table>
-  
-      <table class="layout layout--no-gutter" style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;" align="center" emb-background-style>
-        <tbody><tr>
-          <td class="column" style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;" width="600">
-    
-            <div style="Margin-left: 20px;Margin-right: 20px;">
-      <div class="divider" style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;">&nbsp;</div>
-    </div>
-    
-          </td>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+           align="center" emb-background-style>
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="600">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div class="divider"
+                         style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;">
+                        &nbsp;</div>
+                </div>
+
+            </td>
         </tr>
-      </tbody></table>
-  
-      <table class="layout layout--no-gutter" style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;" align="center" emb-background-style>
-        <tbody><tr>
-          <td class="column" style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;" width="600">
-    
-            <div style="Margin-left: 20px;Margin-right: 20px;">
-      <div style="line-height:20px;font-size:1px">&nbsp;</div>
-    </div>
-    
-            <div style="Margin-left: 20px;Margin-right: 20px;">
-      <p class="size-16" style="Margin-top: 0;Margin-bottom: 20px;font-size: 16px;line-height: 24px;">&#1056;&#1077;&#1108;&#1089;&#1090;&#1088;&#1072;&#1094;&#1110;&#1103; &#1091;&#1095;&#1072;&#1089;&#1085;&#1080;&#1082;&#1110;&#1074; &#1050;&#1086;&#1085;&#1092;&#1077;&#1088;&#1077;&#1085;&#1094;&#1110;&#1111; &#1073;&#1091;&#1076;&#1077; &#1074;&#1110;&#1076;&#1082;&#1088;&#1080;&#1090;&#1072; &#1076;&#1086; 19 &#1095;&#1077;&#1088;&#1074;&#1085;&#1103; 2016 &#1088;&#1086;&#1082;&#1091;.<br />
-&#1056;&#1077;&#1108;&#1089;&#1090;&#1088;&#1072;&#1094;&#1110;&#1103; &#1076;&#1086;&#1087;&#1086;&#1074;&#1110;&#1076;&#1072;&#1095;&#1110;&#1074; &#1074;&#1110;&#1076;&#1073;&#1091;&#1074;&#1072;&#1090;&#1080;&#1084;&#1077;&#1090;&#1100;&#1089;&#1103; &#1090;&#1110;&#1083;&#1100;&#1082;&#1080; &#1079;&#1072; &#1091;&#1084;&#1086;&#1074;&#1080; &#1085;&#1072;&#1103;&#1074;&#1085;&#1086;&#1089;&#1090;&#1110; &#1090;&#1077;&#1079;. &#1042;&#1080;&#1084;&#1086;&#1075;&#1080; &#1076;&#1086;&nbsp;&#1086;&#1092;&#1086;&#1088;&#1084;&#1083;&#1077;&#1085;&#1085;&#1103; &#1090;&#1077;&#1079; &#1079;&#1085;&#1072;&#1093;&#1086;&#1076;&#1103;&#1090;&#1100;&#1089;&#1103; &#1074; &#1088;&#1086;&#1079;&#1076;&#1110;&#1083;&#1110; &#1058;&#1045;&#1047;&#1048; &#1085;&#1072; &#1089;&#1072;&#1081;&#1090;&#1110; &#1050;&#1086;&#1085;&#1092;&#1077;&#1088;&#1077;&#1085;&#1094;&#1110;&#1111;. 
-&#1050;&#1088;&#1110;&#1084; &#1090;&#1086;&#1075;&#1086;,&nbsp;&#1091;&#1095;&#1072;&#1089;&#1085;&#1080;&#1082;&#1080; &#1084;&#1086;&#1078;&#1091;&#1090;&#1100; &#1079;&#1072;&#1088;&#1077;&#1108;&#1089;&#1090;&#1088;&#1091;&#1074;&#1072;&#1090;&#1080;&#1089;&#1103; &#1074; &#1103;&#1082;&#1086;&#1089;&#1090;&#1110; &#1089;&#1083;&#1091;&#1093;&#1072;&#1095;&#1110;&#1074;. &#1055;&#1088;&#1086;&#1093;&#1072;&#1085;&#1085;&#1103; &#1085;&#1077; &#1088;&#1077;&#1108;&#1089;&#1090;&#1088;&#1091;&#1074;&#1072;&#1090;&#1080;&#1089;&#1103; &#1076;&#1074;&#1110;&#1095;&#1110;.</p>
-    </div>
-    
-            <div style="Margin-left: 20px;Margin-right: 20px;">
-      <div class="divider" style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;">&nbsp;</div>
-    </div>
-    
-          </td>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+           align="center" emb-background-style>
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="600">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div style="line-height:20px;font-size:1px">&nbsp;</div>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <p class="size-16" style="Margin-top: 0;Margin-bottom: 20px;font-size: 16px;line-height: 24px;">
+                        Реєстрація учасників Конференції буде відкрита до 19 червня 2016 року.
+                        Реєстрація доповідачів відбуватиметься тільки за умови наявності тез. Вимоги до оформлення тез
+                        знаходяться в розділі ТЕЗИ на сайті Конференції. Крім того, учасники можуть зареєструватися в
+                        якості слухачів. Прохання не реєструватися двічі.</p>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div class="divider"
+                         style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;">
+                        &nbsp;</div>
+                </div>
+
+            </td>
         </tr>
-      </tbody></table>
-  
-      <table class="layout layout--no-gutter" style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;" align="center" emb-background-style>
-        <tbody><tr>
-          <td class="column" style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;" width="300">
-    
-            <div style="Margin-left: 20px;Margin-right: 20px;">
-      <div style="line-height:20px;font-size:1px">&nbsp;</div>
-    </div>
-    
-            <div style="Margin-left: 20px;Margin-right: 20px;">
-      <p style="Margin-top: 0;Margin-bottom: 20px;">&#1041;&#1110;&#1083;&#1100;&#1096; &#1076;&#1077;&#1090;&#1072;&#1083;&#1100;&#1085;&#1091; &#1110;&#1085;&#1092;&#1086;&#1088;&#1084;&#1072;&#1094;&#1110;&#1102;, &#1072; &#1090;&#1072;&#1082;&#1086;&#1078; &#1110;&#1085;&#1092;&#1086;&#1088;&#1084;&#1072;&#1094;&#1110;&#1102; &#1087;&#1088;&#1086; &#1084;&#1086;&#1078;&#1083;&#1080;&#1074;&#1110; &#1079;&#1084;&#1110;&#1085;&#1080; &#1110; &#1092;&#1086;&#1088;&#1084;&#1072;&#1090;&nbsp;&#1050;&#1086;&#1085;&#1092;&#1077;&#1088;&#1077;&#1085;&#1094;&#1110;&#1111; &#1042;&#1080; &#1079;&#1084;&#1086;&#1078;&#1077;&#1090;&#1077; &#1079;&#1085;&#1072;&#1081;&#1090;&#1080; &#1085;&#1072; &#1089;&#1072;&#1081;&#1090;&#1110; <a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #7d9eba;" href="http://space-conf.ikd.kiev.ua">space-conf.ikd.kiev.ua</a></p>
-    </div>
-    
-            <div style="Margin-left: 20px;Margin-right: 20px;">
-      <div style="line-height:20px;font-size:1px">&nbsp;</div>
-    </div>
-    
-          </td>
-          <td class="column" style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;" width="300">
-    
-            <div style="Margin-left: 20px;Margin-right: 20px;">
-      <div style="line-height:20px;font-size:1px">&nbsp;</div>
-    </div>
-    
-            <div style="Margin-left: 20px;Margin-right: 20px;">
-      
-<p style="Margin-top: 0;Margin-bottom: 0;">&#1047; &#1087;&#1080;&#1090;&#1072;&#1085;&#1100; &#1086;&#1088;&#1075;&#1072;&#1085;&#1110;&#1079;&#1072;&#1094;&#1110;&#1111; &#1110; &#1087;&#1088;&#1086;&#1074;&#1077;&#1076;&#1077;&#1085;&#1085;&#1103; &#1050;&#1086;&#1085;&#1092;&#1077;&#1088;&#1077;&#1085;&#1094;&#1110;&#1111; &#1079;&#1074;&#1077;&#1088;&#1090;&#1072;&#1081;&#1090;&#1077;&#1089;&#1100; &#1076;&#1086; &#1074;&#1095;&#1077;&#1085;&#1086;&#1075;&#1086; &#1089;&#1077;&#1082;&#1088;&#1077;&#1090;&#1072;&#1088;&#1103;&nbsp;&#1050;&#1086;&#1085;&#1092;&#1077;&#1088;&#1077;&#1085;&#1094;&#1110;&#1111; &#1057;&#1082;&#1086;&#1088;&#1086;&#1093;&#1086;&#1076; &#1058;&#1077;&#1090;&#1103;&#1085;&#1080;</p><blockquote style="Margin-top: 20px;Margin-bottom: 0;Margin-left: 0;Margin-right: 0;padding-left: 14px;border-left: 4px solid #b5b5b5;"><p style="Margin-top: 20px;Margin-bottom: 
-0;">+38 044 526 15 83</p><p style="Margin-top: 20px;Margin-bottom: 0;">+38 063 451 82 70,</p><p style="Margin-top: 20px;Margin-bottom: 0;"><a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #7d9eba;Margin-top: 20px;" href="mailto:ukrainianspaceconf@gmail.com">ukrainianspaceconf@gmail.com</a></p></blockquote>
-    </div>
-    
-          </td>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+           align="center" emb-background-style>
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="300">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div style="line-height:20px;font-size:1px">&nbsp;</div>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <p style="Margin-top: 0;Margin-bottom: 20px;">Більш детальну інформацію, а також інформацію про
+                        можливі зміни і формат Конференції Ви зможете знайти на сайті <a
+                                style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #7d9eba;"
+                                href="http://space-conf.ikd.kiev.ua">space-conf.ikd.kiev.ua</a></p>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div style="line-height:20px;font-size:1px">&nbsp;</div>
+                </div>
+
+            </td>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding-bottom: 10px;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="300">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div style="line-height:20px;font-size:1px">&nbsp;</div>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+
+                    <p style="Margin-top: 0;Margin-bottom: 0;">З питань організації і проведення Конференції звертайтесь
+                        до вченого секретаря Конференції Скороход Тетяни</p>
+                    <blockquote
+                            style="Margin-top: 20px;Margin-bottom: 0;Margin-left: 0;Margin-right: 0;padding-left: 14px;border-left: 4px solid #b5b5b5;">
+                        <p style="Margin-top: 0px;Margin-bottom:0;">+38 044 526 15 83</p>
+                        <p style="Margin-top: 0px;Margin-bottom: 0;">+38 063 451 82 70,</p>
+                        <p style="Margin-top: 0px;Margin-bottom: 0;"><a
+                                style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #7d9eba;Margin-top: 20px;"
+                                href="mailto:ukrainianspaceconf@gmail.com">ukrainianspaceconf@gmail.com</a></p>
+                    </blockquote>
+                </div>
+
+            </td>
         </tr>
-      </tbody></table>
-      <badge>
-        
-      </badge>
-    </div>
-  
-</body></html>
+        </tbody>
+    </table>
+    <badge>
+
+    </badge>
+</div>
+<div class="wrapper" style="background-color: #e8e8e8;">
+    <table style='border-collapse: collapse;table-layout: fixed;color: #808285;font-family: "PT Sans","Trebuchet MS",sans-serif;'
+           align="center">
+        <tbody>
+        <tr>
+            <td class="preheader__snippet" style="padding: 10px 0 5px 0;vertical-align: top;" width="300">
+
+            </td>
+            <td class="preheader__webversion" style="text-align: right;padding: 10px 0 5px 0;vertical-align: top;"
+                width="300">
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;background-position: 0px 0px;background-image: url(https://i1.createsend1.com/ei/i/B3/3C2/82D/062634/csfinal/bg_header1.jpg);background-repeat: repeat;"
+           align="center">
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="600">
+
+                <div class="image" style="font-size: 12px;font-style: normal;font-weight: 400;" align="center">
+                    <img style="display: block;border: 0;max-width: 149px;" src="http://space-conf.ikd.kiev.ua/images/logo.png" alt="" width="149"
+                         height="148"/>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;Margin-top: 20px;">
+                    <h1 style='Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;font-size: 26px;line-height: 34px;color: #58595b;font-family: "Open Sans",sans-serif;text-align: center;'><span
+                            style="color:#ffffff">16 TH UKRAINIAN CONFERENCE</span>
+                    </h1>
+                    <p style="Margin-top: 20px;Margin-bottom: 0;font-family: open sans,sans-serif;text-align: center;"><span
+                            class="font-open-sans"><span style="color:#d9d9d9">
+                       State Space Agency of Ukraine<br/>
+                        National Academy of Sciences of Ukraine<br/>
+                       Space Research Institute
+</span></span>
+                    </p>
+                </div>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+           align="center" emb-background-style>
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="600">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div style="line-height:20px;font-size:1px">&nbsp;</div>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+
+                    <h2 style='Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;font-size: 20px;line-height: 28px;color: #58595b;font-family: "Open Sans",sans-serif;text-align: center;'>
+                        First Announcement</h2>
+                    <p style="Margin-top: 16px;Margin-bottom: 0;">Dear colleagues!</p>
+                    <p style="Margin-top: 20px;Margin-bottom: 20px;">
+                        Invite you to attend the 15th Ukrainian Conference
+                        on Space Research to be held during August 24-26, 2015 at Odessa I.I. Mechnikov National
+                        University, Chornomorka, Odessa area, Ukraine.</p>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div class="divider"
+                         style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;Margin-bottom: 20px;">
+                        &nbsp;</div>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+
+                    <h2 style='Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;font-size: 20px;line-height: 28px;color: #58595b;font-family: "Open Sans",sans-serif;text-align: center;'>
+                        Program committee</h2>
+                    <ol style="Margin-top: 16px;Margin-bottom: 20px;Margin-left: 24px;padding: 0;">
+                        <li style="Margin-top: 16px;Margin-bottom: 0;">
+                            O. Uruskii – State Space Agency of Ukraine
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            O. Fedorov – Space Research Institute NASU-SSAU (Kyiv, Ukraine)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            M. Banaszkiewicz – Polish Space Agency POLSA (Warszawa, Poland)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            L. Zeleniy – Space Research Institute RAS (Moscow, Russia)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            V. Korepanov – Lviv Centre of Space Research Institute NASU-SSAU (Lviv, Ukraine)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            V. Kuznietsov – IZMIRAN RAS (Moskow, Russia)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            V. Kuntsevich – Space Research Institute NASU-SSAU (Kyiv, Ukraine)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            L. Litvinenko – Institute of Radioastronomy NASU (Kharkiv, Ukraine)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom:0;">
+                            V. Lialko – Scientific Centre for Aerospace Research of the Earth NASU (Kyiv, Ukraine)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            O. Makarov – Yuzhnoye Design Office (Dnipropetrovsk, Ukraine)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            O. Cheremnykh – Space Research Institute NASU-SSAU (Kyiv, Ukraine)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            Yu. Shkuratov – Kharkiv Astronomical Institute KNU (Kharkiv, Ukraine)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            V. Shulga – Institute of Radioastronomy NASU (Kharkiv, Ukraine)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            V. Shulga – Institute of Radioastronomy NASU (Kharkiv, Ukraine)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            Ya. Yatskiv – Main Astronomical Observatory NASU (Kyiv, Ukraine)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            Ye. Kordium – M.G. Kholodny Institute of Botany NASU (Kyiv, Ukraine)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            L. Chernogor – V.N. Karazin Kharkiv National University (Kharkiv, Ukraine)
+                        </li>
+                    </ol>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div class="divider"
+                         style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;">
+                        &nbsp;</div>
+                </div>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+           align="center" emb-background-style>
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="600">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div style="line-height:20px;font-size:1px">&nbsp;</div>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <h3 style='Margin-top: 0;Margin-bottom: 12px;font-style: normal;font-weight: normal;font-size: 16px;line-height: 24px;color: #58595b;font-family: "Open Sans",sans-serif;'>
+                        Conference languages: Ukrainian, Russian ,English
+                    </h3>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div style="line-height:20px;font-size:1px">&nbsp;</div>
+                </div>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+           align="center" emb-background-style>
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="600">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div class="divider"
+                         style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;Margin-bottom: 20px;">
+                        &nbsp;</div>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+
+                    <h2 style='Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;font-size: 20px;line-height: 28px;color: #58595b;font-family: "Open Sans",sans-serif;text-align: center;'>
+                        Sections of the Conference
+                    </h2>
+                    <ol style="Margin-top: 16px;Margin-bottom: 20px;Margin-left: 24px;padding: 0;">
+                        <li style="Margin-top: 16px;Margin-bottom: 0;">
+                            Study of Near space (the Sun, Solar-Terrestrial coupling, Magnetosphere,
+                            Ionosphere)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            Space Biology, Medicine and Microgravity Sciences
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">Astrophysics and Cosmology</li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">Instrumentation, Materials and Technologies for
+                            Space Exploration
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">Space Tools and Systems for Space Research
+                        </li>
+                        <li style="Margin-top:0;Margin-bottom: 0;">Research related to Launchers
+                        </li>
+                        <li style="Margin-top:0;Margin-bottom: 0;">Ground-based Radiophysical Space research
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">Earth Observation from Space</li>
+                    </ol>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div class="divider"
+                         style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;">
+                        &nbsp;</div>
+                </div>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+           align="center" emb-background-style>
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="600">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <h2 style='Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;font-size: 20px;line-height: 28px;color: #58595b;font-family: "Open Sans",sans-serif;text-align: center;'>
+                        Conference terms</h2>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <p class="size-16" style="Margin-top: 0;Margin-bottom: 20px;font-size: 16px;line-height: 24px;">
+                        The following contributions are possible: invited reports - 40
+                        min., plenary reports - 30 min., oral presentations - 20 min. Poster session is planned, with
+                        the possibility of five-minute oral presentation. One participant is limited to either one
+                        plenary report or two oral presentations.
+                    </p>
+                </div>
+            </td>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+           align="center" emb-background-style>
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="600">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div class="divider"
+                         style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;">
+                        &nbsp;</div>
+                </div>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+           align="center" emb-background-style>
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="600">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div style="line-height:20px;font-size:1px">&nbsp;</div>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <p class="size-16" style="Margin-top: 0;Margin-bottom: 20px;font-size: 16px;line-height: 24px;">
+                        Participants Registration will be open till June 07, 2015. Registered speakers should
+                        provide abstracts. Abstract requirements can be found under the Abstracts link at the
+                        Conference website. In addition, participants can register as listeners. Please refrain from
+                        registering twice.</p>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div class="divider"
+                         style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;">
+                        &nbsp;</div>
+                </div>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+           align="center" emb-background-style>
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="300">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div style="line-height:20px;font-size:1px">&nbsp;</div>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <p style="Margin-top: 0;Margin-bottom: 20px;">More information about the organization of the
+                        Conference and changes can be find at
+                        the Conference website <a
+                                style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #7d9eba;"
+                                href="http://space-conf.ikd.kiev.ua">space-conf.ikd.kiev.ua</a></p>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div style="line-height:20px;font-size:1px">&nbsp;</div>
+                </div>
+
+            </td>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding-bottom: 10px;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="300">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div style="line-height:20px;font-size:1px">&nbsp;</div>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+
+                    <p style="Margin-top: 0;Margin-bottom: 0;">ЗContact person for detail information is science
+                        secretary of the conference Tetiana
+                        Skorokhod</p>
+                    <blockquote
+                            style="Margin-top: 20px;Margin-bottom: 0;Margin-left: 0;Margin-right: 0;padding-left: 14px;border-left: 4px solid #b5b5b5;">
+                        <p style="Margin-top: 0px;Margin-bottom:0;">+38 044 526 15 83</p>
+                        <p style="Margin-top: 0px;Margin-bottom: 0;">+38 063 451 82 70,</p>
+                        <p style="Margin-top: 0px;Margin-bottom: 0;"><a
+                                style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #7d9eba;Margin-top: 20px;"
+                                href="mailto:ukrainianspaceconf@gmail.com">ukrainianspaceconf@gmail.com</a></p>
+                    </blockquote>
+                </div>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <badge>
+
+    </badge>
+</div>
+<div class="wrapper" style="background-color: #e8e8e8;">
+    <table style='border-collapse: collapse;table-layout: fixed;color: #808285;font-family: "PT Sans","Trebuchet MS",sans-serif;'
+           align="center">
+        <tbody>
+        <tr>
+            <td class="preheader__snippet" style="padding: 10px 0 5px 0;vertical-align: top;" width="300">
+
+            </td>
+            <td class="preheader__webversion" style="text-align: right;padding: 10px 0 5px 0;vertical-align: top;"
+                width="300">
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;background-position: 0px 0px;background-image: url(https://i1.createsend1.com/ei/i/B3/3C2/82D/062634/csfinal/bg_header1.jpg);background-repeat: repeat;"
+           align="center">
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="600">
+
+                <div class="image" style="font-size: 12px;font-style: normal;font-weight: 400;" align="center">
+                    <img style="display: block;border: 0;max-width: 149px;" src="http://space-conf.ikd.kiev.ua/images/logo.png" alt="" width="149"
+                         height="148"/>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;Margin-top: 20px;">
+                    <h1 style='Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;font-size: 26px;line-height: 34px;color: #58595b;font-family: "Open Sans",sans-serif;text-align: center;'><span
+                            style="color:#ffffff">16 УКРАИНСКАЯ КОНФЕРЕНЦИЯ ПО КОСМИЧЕСКИМ ИССЛЕДОВАНИЯМ</span>
+                    </h1>
+                    <p style="Margin-top: 20px;Margin-bottom: 0;font-family: open sans,sans-serif;text-align: center;"><span
+                            class="font-open-sans"><span style="color:#d9d9d9">
+                        Государственное космическое агентство Украины<br/>
+                        Национальная академия наук Украины<br/>
+                        Институт космических исследований
+</span></span>
+                    </p>
+                </div>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+           align="center" emb-background-style>
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="600">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div style="line-height:20px;font-size:1px">&nbsp;</div>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+
+                    <h2 style='Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;font-size: 20px;line-height: 28px;color: #58595b;font-family: "Open Sans",sans-serif;text-align: center;'>
+                        Первое информационное сообщение</h2>
+                    <p style="Margin-top: 16px;Margin-bottom: 0;">Уважаемые коллеги!</p>
+                    <p style="Margin-top: 20px;Margin-bottom: 20px;">Приглашаем Вас принять участие в работе 15-й
+                        Украинской конференции по
+                        космическим исследованиям, которая состоится с 24 по 28 августа 2015</p>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div class="divider"
+                         style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;Margin-bottom: 20px;">
+                        &nbsp;</div>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+
+                    <h2 style='Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;font-size: 20px;line-height: 28px;color: #58595b;font-family: "Open Sans",sans-serif;text-align: center;'>
+                        Программный комитет</h2>
+                    <ol style="Margin-top: 16px;Margin-bottom: 20px;Margin-left: 24px;padding: 0;">
+                        <li style="Margin-top: 16px;Margin-bottom: 0;">
+                            О.С. Уруский – Государственное космическое агентство Украины (Киев, Украина)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            O.П. Федоров – Институт космических исследований НАНУ-ГКАУ (Киев,
+                            Украина)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            M. Банашкевич – Космическое агентство Польши POLSA (Варшава, Польша)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            Л.M. Зеленый – Институт космических исследований РАН (Moсква, Россия)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            В.Е. Корепанов – Львовский центр института космических исследований
+                            НАНУ-ГКАУ (Львов, Украина)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            В.Д. Кузнецов – Институт земного магнетизма, ионосферы и распространения
+                            радиоволн РАН (Троицк, Россия)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            В.М. Кунцевич – Институт космических исследований НАНУ-ГКАУ (Киев,
+                            Украина)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            Л.Н. Литвиненко – Радиоастрономический институт НАНУ (Харьков, Украина)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom:0;">
+                            В.И. Лялько – Научный центр аэрокосмических исследований Земли (Киев,
+                            Украина)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            A.Л. Maкаров – Государственное предприятие «Конструкторское бюро
+                            «Южное» (Днепропетровск, Украина)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            O.K. Черемных – Институт космических исследований НАНУ-ГКАУ (Киев,
+                            Украина)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            Ю.Г. Шкуратов – Харьковский астрономический институт ХНУ (Харьков,
+                            Украина)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            Я.С. Яцкив – Главная астрономическая обсерватория НАНУ (Киев, Украина)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            В.М. Шульга – Радиоастрономический институт НАНУ (Харьков, Украина)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            Е.Л. Кордюм – Институт ботаники им. М.Г. Холодного НАНУ (Киев, Украина)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            Л.Ф. Черногор – Харковский национальный университет им. В.Н. Каразина
+                            (Харьков, Украина)
+                        </li>
+                    </ol>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div class="divider"
+                         style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;">
+                        &nbsp;</div>
+                </div>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+           align="center" emb-background-style>
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="600">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div style="line-height:20px;font-size:1px">&nbsp;</div>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <h3 style='Margin-top: 0;Margin-bottom: 12px;font-style: normal;font-weight: normal;font-size: 16px;line-height: 24px;color: #58595b;font-family: "Open Sans",sans-serif;'>
+                        Языки конференции: украинский, русский, английский
+                    </h3>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div style="line-height:20px;font-size:1px">&nbsp;</div>
+                </div>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+           align="center" emb-background-style>
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="600">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div class="divider"
+                         style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;Margin-bottom: 20px;">
+                        &nbsp;</div>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+
+                    <h2 style='Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;font-size: 20px;line-height: 28px;color: #58595b;font-family: "Open Sans",sans-serif;text-align: center;'>
+                        Предполагаются следующие тематические секции
+                    </h2>
+                    <ol style="Margin-top: 16px;Margin-bottom: 20px;Margin-left: 24px;padding: 0;">
+                        <li style="Margin-top: 16px;Margin-bottom: 0;">
+                            Исследование ближнего космоса (в том числе Солнца,
+                            солнечно-земных связей, магнитосферы, ионосферы)
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">
+                            Космическая биология, медицина, и науки о микрогравитации
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">Астрофизические и космологические исследования</li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">Приборы, материалы и технологии для космических
+                            исследований
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">Космические аппараты и системы для космических
+                            исследований
+                        </li>
+                        <li style="Margin-top:0;Margin-bottom: 0;">Исследования в области ракетных технологий
+                        </li>
+                        <li style="Margin-top:0;Margin-bottom: 0;">Наземные радиофизические исследования космоса
+                        </li>
+                        <li style="Margin-top: 0;Margin-bottom: 0;">Наблюдение Земли из космоса</li>
+                    </ol>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div class="divider"
+                         style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;">
+                        &nbsp;</div>
+                </div>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+           align="center" emb-background-style>
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="600">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <h2 style='Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;font-size: 20px;line-height: 28px;color: #58595b;font-family: "Open Sans",sans-serif;text-align: center;'>
+                        Регламент конференции</h2>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <p class="size-16" style="Margin-top: 0;Margin-bottom: 20px;font-size: 16px;line-height: 24px;">
+                        На конференции будут представлены приглашенные
+                        доклады (40 мин.), пленарные доклады (30 мин.) и сессионные доклады (20 мин.)
+                        Планируется стендовая сессия, с возможностью 5-минутного устного представления
+                        результатов. Один участник может выступить либо с одним пленарным докладом,
+                        либо с двумя сессионными
+                    </p>
+                </div>
+            </td>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+           align="center" emb-background-style>
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="600">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div class="divider"
+                         style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;">
+                        &nbsp;</div>
+                </div>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+           align="center" emb-background-style>
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="600">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div style="line-height:20px;font-size:1px">&nbsp;</div>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <p class="size-16" style="Margin-top: 0;Margin-bottom: 20px;font-size: 16px;line-height: 24px;">
+                        Регистрация участников конференции будет открыта на сайте конференции в
+                        период до 07 июня 2015 года. Регистрация докладчиков предусматривает
+                        предоставление тезисов. Требования к оформлению тезисов находятся в разделе
+                        ТЕЗИСЫ на сайте Конференции. Кроме этого, участники могут зарегистрироваться
+                        в качестве слушателей. Просьба не регистрироваться дважды.</p>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div class="divider"
+                         style="display: block;font-size: 2px;line-height: 2px;width: 40px;background-color: #b5b5b5;Margin-left: 260px;Margin-right: 260px;">
+                        &nbsp;</div>
+                </div>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table class="layout layout--no-gutter"
+           style="border-collapse: collapse;table-layout: fixed;Margin-left: auto;Margin-right: auto;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+           align="center" emb-background-style>
+        <tbody>
+        <tr>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="300">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div style="line-height:20px;font-size:1px">&nbsp;</div>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <p style="Margin-top: 0;Margin-bottom: 20px;">Более подробные сведения, а также информация о
+                        возможных изменениях
+                        формата проведения Конференции будут предоставлены на сайте <a
+                                style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #7d9eba;"
+                                href="http://space-conf.ikd.kiev.ua">space-conf.ikd.kiev.ua</a></p>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div style="line-height:20px;font-size:1px">&nbsp;</div>
+                </div>
+
+            </td>
+            <td class="column"
+                style="font-size: 14px;line-height: 21px;padding: 0;text-align: left;vertical-align: top;color: #808285;font-family: Ubuntu,sans-serif;"
+                width="300">
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+                    <div style="line-height:20px;font-size:1px">&nbsp;</div>
+                </div>
+
+                <div style="Margin-left: 20px;Margin-right: 20px;">
+
+                    <p style="Margin-top: 0;Margin-bottom: 0;">По всем вопросам, связанным с проведением Конференции,
+                        обращайтесь к
+                        ученому секретарю Скороход Татьяне</p>
+                    <blockquote
+                            style="Margin-top: 20px;Margin-bottom: 0;Margin-left: 0;Margin-right: 0;padding-left: 14px;border-left: 4px solid #b5b5b5;">
+                        <p style="Margin-top: 0px;Margin-bottom:0;">+38 044 526 15 83</p>
+                        <p style="Margin-top: 0px;Margin-bottom: 0;">+38 063 451 82 70,</p>
+                        <p style="Margin-top: 0px;Margin-bottom: 0;"><a
+                                style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #7d9eba;Margin-top: 20px;"
+                                href="mailto:ukrainianspaceconf@gmail.com">ukrainianspaceconf@gmail.com</a></p>
+                    </blockquote>
+                </div>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <badge>
+
+    </badge>
+</div>
+
+</body>
+</html>
